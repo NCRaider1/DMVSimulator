@@ -5,7 +5,9 @@ public class DMVSimulator
     public static void main(String[] args)
     {
     Random r = new Random();
-    int order = r.nextInt(100)+1;
+    int low = 100;
+    int high = 200;
+    int order = r.nextInt(high-low)+low;
     
     System.out.println("Welcome to the DMV. Please take a number");
     System.out.println("Your number is " + order + ". Please wait until that number is called");
