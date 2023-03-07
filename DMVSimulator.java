@@ -30,7 +30,7 @@ public class DMVSimulator
         currentSpot = (currentSpot % 100)+1;
     }
 
-    System.out.println("You do not have the required paperwork, GET OUT!!!");
+    System.out.println("You do not have the required paperwork, GET OUT!!! HAHAHA(in evil laughing voice)");
     }
 }
 
