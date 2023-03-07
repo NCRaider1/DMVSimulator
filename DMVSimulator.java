@@ -23,14 +23,23 @@ public class DMVSimulator
 
         if (called && currentSpot == order)
         {
-            System.out.println("Now calling " + order + " please come to the desk.");
+            int rando = r.nextInt(100);
+            if (rando == 0)
+            {
+                System.out.println("Now calling " + order + " please come to the desk.");
+            }
+            else
+            {
+                System.out.println("You do not have the required paperwork, GET OUT!!!");
+            }
+            
             break;
         }
 
         currentSpot = (currentSpot % 100)+1;
     }
 
-    System.out.println("You do not have the required paperwork, GET OUT!!!");
+    
     }
 }
 
