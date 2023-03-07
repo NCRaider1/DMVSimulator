@@ -30,7 +30,7 @@ public class DMVSimulator
             }
             else
             {
-                System.out.println("You do not have the required paperwork, GET OUT!!!");
+                System.out.println("You do not have the required paperwork, GET OUT!!! HAHAHA(in evil laughing voice)");
             }
             
             break;
@@ -40,6 +40,7 @@ public class DMVSimulator
     }
 
     
+
     }
 }
 
